@@ -1,0 +1,260 @@
+body{
+    background-color: #2F5249;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #97B067;
+    height: 3vw;
+}
+
+.name {
+    color: white;
+    font-weight: 800;
+    font-size: 1vw;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 1vw;
+    padding: 0;
+    gap: 5vw;
+}
+
+.contact-button {
+    background-color: #2F5249;
+    color: white;
+    border: none;
+    font-size: 0.6vw;
+    padding: 0.8vw 2.4vw;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.top-section {
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.top-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-size: 5vw;
+    font-weight: 600;
+    margin: 0;
+}
+
+.tagline {
+    color: white;
+    font-size: 1.25vw;
+}
+
+.visit-button {
+    background-color: #97B067;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8vw 2.4vw;
+    margin-top: 50px;
+    color: white;
+    font-weight: 900;
+    font-size: 0.6vw;
+}
+
+.about-section {
+    padding: 50px 100px;
+    background-color: white;
+}
+
+.about-container {
+    padding-right: 20px;
+}
+
+.heading {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.kegees {
+    color: #2F5249;
+    font-weight: 600;
+}
+
+.about {
+    color: black;
+    font-size: 1vw;
+}
+
+.since {
+    text-align: right;
+    font-size: 0.8vw;
+}
+
+.about-flex {
+    display: flex;
+}
+
+.photos {
+    display: flex;
+}
+
+.photo {
+    width: 25vw;
+    height: auto;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(81, 81, 81);
+}
+
+.services-section {
+    padding: 50px 100px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.service-box {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+    max-width: 400px;
+    font-size: 1vw;
+}
+
+.service-heading {
+    font-weight: 600;
+    display: inline;
+    font-size: 1.3vw;
+    margin-top: 16px;
+    border-bottom: 1px solid #2F5249;
+}
+
+.highlights-section {
+    padding: 50px 100px;
+    background-color: white;
+}
+
+.highlight-flex {
+    display: flex;
+    align-items: center;
+}
+
+.highlight {
+    display: flex;
+    gap: 0.8vw;
+    margin-bottom: 10px;
+    font-size: 1.5vw;
+}
+
+.tick {
+    width: 1.0vw;
+}
+
+.highlight-photos {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.highlight-image {
+    height: 15vw;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px 2vw;
+}
+
+.contact-section {
+    padding: 50px 100px;
+    color: white;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    font-size: 1.5vw;
+}
+
+.map {
+    height: 20vw;
+    width: 30vw;
+}
+
+.footer-section {
+    background-color: white;
+    color: black;
+    padding: 50px 100px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 250px;
+    margin-bottom: 3vw;
+}
+
+.link {
+    font-size: 1.3vw;
+    color: rgb(79, 79, 79);
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.7vw;
+}
+
+/* Animations */
+
+.nav-links:hover {
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #2F5249;
+}
+
+.visit-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #97B067;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.service-box:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.2s;
+}
