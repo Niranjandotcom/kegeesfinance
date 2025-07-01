@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #2F5249;
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -258,3 +258,99 @@ ul {
     box-shadow: 5px 5px 10px black;
     transition: 0.2s;
 }
+
+/* Media Queries */
+@media (max-width: 900px) {
+
+    .name {
+        font-size: 1.5vw;
+    }
+
+    .nav-links {
+        font-size: 1.3vw;
+    }
+
+    .contact-button {
+        font-size: 1.3vw;
+    }
+
+    .tagline {
+        font-size: 1.5vw;
+    }
+
+    .visit-button {
+        padding: 1vw 3vw;
+        font-size: 1.2vw;
+    }
+
+    .about-flex {
+        flex-direction: column;
+    }
+
+    .since {
+        font-size: 1.5vw;
+    }
+
+    .photos {
+        justify-content: center;
+    }
+
+    .photo {
+        width: 50vw;
+    }
+
+    .about {
+        font-size: 1.7vw;
+    }
+
+    .service-box {
+        font-size: 1.5vw;
+    }
+
+    .service-heading {
+        font-size: 1.7vw;
+    }
+
+    .highlight {
+        font-size: 1.8vw;
+    }
+
+    .contact {
+        font-size: 1.8vw;
+    }
+
+    .link-container {
+        padding: 0px 150px;
+    }
+
+    .copyright {
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        font-size: 8vw;
+    }
+
+    .tagline {
+        font-size: 1.9vw;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-heading {
+        font-size: 2.5vw;
+    }
+
+    .service-box {
+        min-width: 100%;
+        font-size: 2.2vw;
+    }
+
+}
+
