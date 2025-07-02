@@ -354,6 +354,11 @@ ul {
 }
 
 @media (max-width: 425px) {
+    .top-section {
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
     .navbar-container {
         height: 5vw;
     }
@@ -436,6 +441,18 @@ ul {
 
     .copyright {
         font-size: 2vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .section {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .service-box {
+        min-width: 250px;
     }
 }
 
