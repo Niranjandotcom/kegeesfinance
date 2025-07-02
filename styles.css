@@ -351,6 +351,91 @@ ul {
         min-width: 100%;
         font-size: 2.2vw;
     }
+}
 
+@media (max-width: 425px) {
+    .navbar-container {
+        height: 5vw;
+    }
+
+    .nav-link-container {
+        display: none;
+    }
+
+    .name {
+        font-size: 3vw;
+    }
+
+    .contact-button {
+        padding: 1.6vw 4.8vw;
+    }
+
+    .title {
+        font-size: 10vw;
+    }
+
+    .tagline {
+        font-size: 2.5vw;
+    }
+
+    .visit-button {
+        padding: 2vw 6vw;
+        font-size: 2vw;
+    }
+
+    .section {
+        padding: 20px 40px;
+    }
+
+    .heading {
+        font-size: 6vw;
+    }
+
+    .about {
+        font-size: 3vw;
+        text-align: justify;
+    }
+
+    .photo {
+        width: 75vw;
+    }
+
+    .service-box {
+        min-width: 300px;
+        font-size: 3.25vw;
+    }
+
+    .service-heading {
+        font-size: 3.5vw;
+    }
+
+    .highlight {
+        font-size: 4vw;
+    }
+
+    .contact-flex {
+        flex-direction: column;
+    }
+
+    .contact {
+        font-size: 4vw;
+    }
+
+    .map {
+        width: 60vw;
+        height: 40vw;
+    }
+
+    .link-container {
+        padding: 0px 50px;
+    }
+
+    .link {
+        font-size: 3vw;
+    }
+
+    .copyright {
+        font-size: 2vw;
+    }
 }
 
